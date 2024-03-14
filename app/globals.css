@@ -2,32 +2,73 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+@font-face {
+  font-family: lexend;
+  src: url(/fonts/Lexend-VariableFont_wght.ttf);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+* {
+  font-family: lexend, Arial, Helvetica, sans-serif;
+  color: #eeeeee;
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-image: url(../public/large-triangles.svg);
+}
+
+.colorful-border {
+  background-image: linear-gradient(to bottom right, #FA00FF, #00FFC2);
+  display: flex;
+  width: fit-content;
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+
+  article, div, section{
+    background-color: rgb(19, 19, 19);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+  }
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+/* Home */
+.home-section {
+  width: 100vw;
+}
+.home-img {
+  width: 30vw;
+  height: 30vw;
+
+  margin: 5vw;
+}
+.home-info {
+  width: 60vw;
+  margin: 5vw;
+  margin-left: 0;
+  div{
+    width: 100%;
+  }
+}
+.home-info-heading {
+  font-size: 4.5vw;
+  color: #eeeeee;
+}
+.home-btn-container {
+  width: 98vw;
+  display: flex;
+  justify-content: space-around;
+  button{
+    width: 20vw;
+    height: 7.5vw;
+    border-radius: 1.5vw;
+    font-size: 2.5vw;
+  }
+}
+.home-projects-btn {
+  background-image: linear-gradient(to bottom right, #FA00FF, #00FFC2);
 }
