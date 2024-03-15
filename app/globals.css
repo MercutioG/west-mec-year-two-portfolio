@@ -36,9 +36,41 @@ body {
   }
 }
 
+/* Nav */
+nav{
+  z-index: 1000;
+}
+
 /* Home */
 .home-section {
   width: 100vw;
+}
+.big-home-img {
+  width: 100vw;
+  max-width: 100%;
+  height: 100vh;
+
+  background-image: linear-gradient(to right, #00000050, #000000ff), url('https://res.cloudinary.com/dbifof9on/image/upload/v1710533771/advanced_code_r0drox.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  div {
+    width: 100%;
+    height: 100%;
+
+    backdrop-filter: blur(5px);
+
+    padding: 10vw;
+
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+    p {
+      font-size: calc(2.5rem + 1vw);
+      text-align: right;
+    }
+  }
 }
 .home-img {
   width: 30vw;
@@ -59,7 +91,8 @@ body {
   color: #eeeeee;
 }
 .home-btn-container {
-  width: 98vw;
+  width: 100vw;
+  max-width: 100%;
   display: flex;
   justify-content: space-around;
   button{
@@ -71,4 +104,32 @@ body {
 }
 .home-projects-btn {
   background-image: linear-gradient(to bottom right, #FA00FF, #00FFC2);
+}
+
+/* Scrollbar */
+body {
+  --sb-track-color: #232e33;
+  --sb-thumb-color: #b18ada;
+  --sb-size: 12px;
+}
+
+body::-webkit-scrollbar {
+  width: var(--sb-size);
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--sb-track-color);
+  border-radius: 0px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--sb-thumb-color);
+  border-radius: 0px;
+}
+
+@supports not selector(::-webkit-scrollbar) {
+  body {
+    scrollbar-color: var(--sb-thumb-color)
+    var(--sb-track-color);
+  }
 }

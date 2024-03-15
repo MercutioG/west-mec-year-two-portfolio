@@ -7,6 +7,11 @@ const page = () => {
   return (
     <>
       <Navbar />
+      <div className='big-home-img'>
+        <div>
+          <p>Welcome to my Portfolio</p>
+        </div>
+      </div>
       <section class='flex' className='home-section'>
         <Image
           className='home-img'
@@ -18,7 +23,7 @@ const page = () => {
         <article className='colorful-border home-info'>
           <div class='text-center'>
             <p className='home-info-heading'>Mercutio Geant</p>
-            <p className='home-info-paragraph'>Mercutio Geant</p>
+            <p className='home-info-paragraph'>Hello world</p>
           </div>
         </article>
       </section>
