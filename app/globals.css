@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://unpkg.com/aos@2.3.1/dist/aos.css");
+
 @font-face {
   font-family: lexend;
   src: url(/fonts/Lexend-VariableFont_wght.ttf);
@@ -10,23 +12,26 @@
 * {
   font-family: lexend, Arial, Helvetica, sans-serif;
   color: #eeeeee;
+
+  scroll-behavior: smooth;
 }
 
 body {
   background-image: url(../public/large-triangles.svg);
+  overflow-x: none;
 }
 
 .colorful-border {
   background-image: linear-gradient(to bottom right, #FA00FF, #00FFC2);
   display: flex;
   width: fit-content;
-  padding: 0.25rem;
-  border-radius: 0.5rem;
+  padding: 0.3vw;
+  border-radius: 1vw;
 
   article, div, section{
     background-color: rgb(19, 19, 19);
-    padding: 0.5rem;
-    border-radius: 0.5rem;
+    padding: 0.5vw;
+    border-radius: 1vw;
   }
 }
 
@@ -90,6 +95,11 @@ nav{
   font-size: 4.5vw;
   color: #eeeeee;
 }
+.home-info-paragraph {
+  font-size: 1.6vw;
+  padding: 1vw;
+  color: #eeeeee;
+}
 .home-btn-container {
   width: 100vw;
   max-width: 100%;
@@ -102,8 +112,21 @@ nav{
     font-size: 2.5vw;
   }
 }
-.home-projects-btn {
-  background-image: linear-gradient(to bottom right, #FA00FF, #00FFC2);
+.home-projects-btn, .home-about-btn, .home-github-btn {
+  background-image: radial-gradient( #d400ff, #5e327d);
+  box-shadow: 0vw 1vw 1vw -0.75vw black;
+  transition: 0.5s;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+.about-info {
+  div{
+    width: 100%;
+  };
+  width: 90vw;
+  margin: 5vw;
 }
 
 /* Scrollbar */
