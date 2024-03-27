@@ -1,7 +1,7 @@
 const data = [{
     "id": 1,
     "title": "Bernard's Burritos",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quod, quaerat et justo vit autem quibusdam quidem quasi, quod, quaerat et justo verit. Lorem ipsum dolor sit amet, con sect et justo tempor nisi.",
+    "description": "This was my first ever coding project, it is a very simple website without much structure to it, however it was the start that kicked off my coding career to where I am at now.",
     "image": "https://res.cloudinary.com/dbifof9on/image/upload",
     "url": "https://mcarri355.github.io/Website-Project/",
     "github": "https://github.com/mcarri355/Website-Project"
@@ -33,7 +33,7 @@ const data = [{
   {
     "id": 5,
     "title": "Bernard's Breakfast",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quod, quaerat et justo vit autem quibusdam quidem quasi, quod, quaerat et justo verit. Lorem ipsum dolor sit amet, con sect et justo tempor nisi.",
+    "description": "The sequel to Bernard's Burritos, this was supposed to be testing my skills in HTML and JavaScript, teaching us how to use multiple pages in a single site.",
     "image": "https://res.cloudinary.com/dbifof9on/image/upload",
     "url": "https://ethantransier.github.io/End-of-unit-1-project/",
     "github": "https://github.com/EthanTransier/End-of-unit-1-project"
@@ -76,14 +76,38 @@ const data = [{
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quod, quaerat et justo vit autem quibusdam quidem quasi, quod, quaerat et justo verit. Lorem ipsum dolor sit amet, con sect et justo tempor nisi.",
     "image": "https://res.cloudinary.com/dbifof9on/image/upload",
     "url": "https://mercutiog.github.io/Summer-Website/",
-    "github": "https://github.com/MercutioG/jQuery-Media-Page"
+    "github": "https://github.com/MercutioG/Summer-Website"
   },
   {
     "id": 11,
-    "title": "Summer Website",
+    "title": "Netlify Testing",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quod, quaerat et justo vit autem quibusdam quidem quasi, quod, quaerat et justo verit. Lorem ipsum dolor sit amet, con sect et justo tempor nisi.",
     "image": "https://res.cloudinary.com/dbifof9on/image/upload",
-    "url": "https://mercutiog.github.io/Summer-Website/",
-    "github": "https://github.com/MercutioG/jQuery-Media-Page"
+    "url": "https://shiny-dolphin-49e590.netlify.app",
+    "github": "https://github.com/MercutioG/birthday-reminder"
+  },
+  {
+    "id": 12,
+    "title": "React Tours Project",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quod, quaerat et justo vit autem quibusdam quidem quasi, quod, quaerat et justo verit. Lorem ipsum dolor sit amet, con sect et justo tempor nisi.",
+    "image": "https://res.cloudinary.com/dbifof9on/image/upload",
+    "url": "https://frabjous-halva-61a224.netlify.app/",
+    "github": "https://github.com/MercutioG/React-Tours-Project"
+  },
+  {
+    "id": 12,
+    "title": "Random Quote Generator",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quod, quaerat et justo vit autem quibusdam quidem quasi, quod, quaerat et justo verit. Lorem ipsum dolor sit amet, con sect et justo tempor nisi.",
+    "image": "https://res.cloudinary.com/dbifof9on/image/upload",
+    "url": "https://endearing-horse-828f09.netlify.app",
+    "github": "https://github.com/MercutioG/random-quote-generator"
+  },
+  {
+    "id": 13,
+    "title": "Custom Homepage",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quod, quaerat et justo vit autem quibusdam quidem quasi, quod, quaerat et justo verit. Lorem ipsum dolor sit amet, con sect et justo tempor nisi.",
+    "image": "https://res.cloudinary.com/dbifof9on/image/upload",
+    "url": "https://school-react-homepage.netlify.app",
+    "github": "https://github.com/MercutioG/react-custom-homepage"
   },
 ]
