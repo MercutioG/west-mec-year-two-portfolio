@@ -66,8 +66,19 @@ const page = () => {
       </article>
       <article className='colorful-border about-info'>
         <div class='text-left'>
-          <p className='home-info-heading'>Experience</p>
-          <p className='home-info-paragraph'>While I've never worked a full-time or part-time job with any other company, that does not mean I do not have experience. During my first year at West-Mec, our class worked with a client to create a website for his company, QuikTek. During the second year, I entered a six week internship with a program called WBLA from January-Febuary 2024, and we worked with another client to make her a fully customizable portfolio.</p>
+          <div className='basis-3/4'>
+            <p className='home-info-heading'>Experience</p>
+            <p className='home-info-paragraph'>
+              During my first year at West-Mec, our class worked with a client to create a website for his company, QuikTek. During the second year, I entered a six week internship with a program called WBLA from January-Febuary 2024, and we worked with another client to make her a fully customizable portfolio.
+            </p>
+          </div>
+          <Image
+            className='basis-1/4'
+            src="https://res.cloudinary.com/dbifof9on/image/upload/v1681780766/cld-sample-4.jpg"
+            alt='Experience Image'
+            width={500}
+            height={500}
+          ></Image>
         </div>
       </article>
     </>

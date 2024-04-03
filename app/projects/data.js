@@ -9,7 +9,7 @@ const data = [{
   {
     "id": 2,
     "title": "Number Converter",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quod, quaerat et justo vit autem quibusdam quidem quasi, quod, quaerat et justo verit. Lorem ipsum dolor sit amet, con sect et justo tempor nisi.",
+    "description": "My first javascript project, a prompt is created for the user to input a number, and then it converts it to binary, and hexadecimal.",
     "image": "https://res.cloudinary.com/dbifof9on/image/upload",
     "url": "https://mercutiog.github.io/Number-Converter/",
     "github": "https://github.com/MercutioG/Number-Converter"
@@ -17,7 +17,7 @@ const data = [{
   {
     "id": 3,
     "title": "Pizza Order Form",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quod, quaerat et justo vit autem quibusdam quidem quasi, quod, quaerat et justo verit. Lorem ipsum dolor sit amet, con sect et justo tempor nisi.",
+    "description": "A fake order form where it calculates the price all the toppings and pizza options and displays them at the end with an alert message.",
     "image": "https://res.cloudinary.com/dbifof9on/image/upload",
     "url": "https://mercutiog.github.io/pizza-form/",
     "github": "https://github.com/MercutioG/pizza-form"
@@ -25,7 +25,7 @@ const data = [{
   {
     "id": 4,
     "title": "Picture Grid",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quod, quaerat et justo vit autem quibusdam quidem quasi, quod, quaerat et justo verit. Lorem ipsum dolor sit amet, con sect et justo tempor nisi.",
+    "description": "A CSS practice website were the goal was to create a layout using grids.",
     "image": "https://res.cloudinary.com/dbifof9on/image/upload",
     "url": "https://mercutiog.github.io/picture-grid/",
     "github": "https://github.com/MercutioG/picture-grid"
@@ -95,7 +95,7 @@ const data = [{
     "github": "https://github.com/MercutioG/React-Tours-Project"
   },
   {
-    "id": 12,
+    "id": 13,
     "title": "Random Quote Generator",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quod, quaerat et justo vit autem quibusdam quidem quasi, quod, quaerat et justo verit. Lorem ipsum dolor sit amet, con sect et justo tempor nisi.",
     "image": "https://res.cloudinary.com/dbifof9on/image/upload",
@@ -103,9 +103,9 @@ const data = [{
     "github": "https://github.com/MercutioG/random-quote-generator"
   },
   {
-    "id": 13,
+    "id": 14,
     "title": "Custom Homepage",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quod, quaerat et justo vit autem quibusdam quidem quasi, quod, quaerat et justo verit. Lorem ipsum dolor sit amet, con sect et justo tempor nisi.",
+    "description": "A custom React homepage for all of my most important links for my West-MEC. This was trying to show us how to use our Netlify skills in combination with a plugin.",
     "image": "https://res.cloudinary.com/dbifof9on/image/upload",
     "url": "https://school-react-homepage.netlify.app",
     "github": "https://github.com/MercutioG/react-custom-homepage"
