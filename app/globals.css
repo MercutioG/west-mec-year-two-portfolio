@@ -115,7 +115,7 @@ nav{
   }
 }
 .home-projects-btn, .home-about-btn, .home-github-btn {
-  background-image: radial-gradient( #d400ff, #5e327d);
+  background-image: radial-gradient( #ad12cc, #7a31af);
   box-shadow: 0vw 1vw 1vw -0.75vw black;
   transition: 0.5s;
 
@@ -123,12 +123,26 @@ nav{
     transform: scale(1.1);
   }
 }
+.home-info-content {
+  display: flex;
+  flex-direction: row;
+}
 .about-info {
-  div{
-    width: 100%;
-  };
   width: 90vw;
   margin: 5vw;
+  div{
+    width: 100%;
+    padding: 0;
+    div{
+      p{
+        margin: 2vw;
+      }
+    };
+    img{
+      width: 36vw;
+      border-radius: 0 0.9vw 0.9vw 0;
+    };
+  };
 }
 
 /* Scrollbar */

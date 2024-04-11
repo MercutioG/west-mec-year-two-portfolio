@@ -48,37 +48,90 @@ const page = () => {
       </div>
       <article className='colorful-border about-info' data-aos="fade-left" id='about-section'>
         <div class='text-left'>
-          <p className='home-info-heading'>About Me</p>
-          <p className='home-info-paragraph'>Hello world</p>
-        </div>
-      </article>
-      <article className='colorful-border about-info'>
-        <div class='text-left'>
-          <p className='home-info-heading'>Education</p>
-          <p className='home-info-paragraph'>Hello world</p>
-        </div>
-      </article>
-      <article className='colorful-border about-info'>
-        <div class='text-left'>
-          <p className='home-info-heading'>Skills</p>
-          <p className='home-info-paragraph'>Hello world</p>
-        </div>
-      </article>
-      <article className='colorful-border about-info'>
-        <div class='text-left'>
-          <div className='basis-3/4'>
-            <p className='home-info-heading'>Experience</p>
-            <p className='home-info-paragraph'>
-              During my first year at West-Mec, our class worked with a client to create a website for his company, QuikTek. During the second year, I entered a six week internship with a program called WBLA from January-Febuary 2024, and we worked with another client to make her a fully customizable portfolio.
-            </p>
+          <div className='basis-3/4 home-info-content'>
+            <div>
+              <p className='home-info-heading'>Education</p>
+              <p className='home-info-paragraph'>
+                Graduating from High School in May 2024<br/><br/>
+                Attended West-Mec NEC coding program for two years<br/><br/>
+                Received my HTML and CSS certificates
+              </p>
+            </div>
+            
+            <Image
+              className='basis-1/4'
+              src="https://res.cloudinary.com/dbifof9on/image/upload/v1681780766/cld-sample-4.jpg"
+              alt='Experience Image'
+              width={500}
+              height={500}
+            />
           </div>
-          <Image
-            className='basis-1/4'
-            src="https://res.cloudinary.com/dbifof9on/image/upload/v1681780766/cld-sample-4.jpg"
-            alt='Experience Image'
-            width={500}
-            height={500}
-          ></Image>
+        </div>
+      </article>
+      <article className='colorful-border about-info'>
+        <div class='text-left'>
+          <div className='basis-3/4 home-info-content'>
+            <div>
+              <p className='home-info-heading'>About Me</p>
+              <p className='home-info-paragraph'>
+                Worked with a client for his compeny QuikTek<br/><br/>
+                Six week internship with WBLA from January to Febuary 2024 to work with a client to make a customizable portfolio<br/><br/>
+                Attributed regularly to community service throughout highschool
+              </p>
+            </div>
+            
+            <Image
+              className='basis-1/4'
+              src="https://res.cloudinary.com/dbifof9on/image/upload/v1681780766/cld-sample-4.jpg"
+              alt='Experience Image'
+              width={500}
+              height={500}
+            />
+          </div>
+        </div>
+      </article>
+      <article className='colorful-border about-info'>
+        <div class='text-left'>
+          <div className='basis-3/4 home-info-content'>
+            <div>
+              <p className='home-info-heading'>Skills</p>
+              <p className='home-info-paragraph'>
+                Worked with a client for his compeny QuikTek<br/><br/>
+                Six week internship with WBLA from January to Febuary 2024 to work with a client to make a customizable portfolio<br/><br/>
+                Attributed regularly to community service throughout highschool
+              </p>
+            </div>
+            
+            <Image
+              className='basis-1/4'
+              src="https://res.cloudinary.com/dbifof9on/image/upload/v1681780766/cld-sample-4.jpg"
+              alt='Experience Image'
+              width={500}
+              height={500}
+            />
+          </div>
+        </div>
+      </article>
+      <article className='colorful-border about-info'>
+        <div class='text-left'>
+          <div className='basis-3/4 home-info-content'>
+            <div>
+              <p className='home-info-heading'>Experience</p>
+              <p className='home-info-paragraph'>
+                Worked with a client for his compeny QuikTek<br/><br/>
+                Six week internship with WBLA &#40;Work-Based Learning Alliance&#41; from January to Febuary 2024 to work with a client to make a customizable portfolio<br/><br/>
+                Attributed regularly to community service throughout highschool
+              </p>
+            </div>
+            
+            <Image
+              className='basis-1/4'
+              src="https://res.cloudinary.com/dbifof9on/image/upload/v1681780766/cld-sample-4.jpg"
+              alt='Experience Image'
+              width={500}
+              height={500}
+            />
+          </div>
         </div>
       </article>
     </>
