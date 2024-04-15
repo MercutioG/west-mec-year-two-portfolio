@@ -48,7 +48,8 @@ nav{
 
 /* Home */
 .home-section {
-  width: 100vw;
+  width: 97vw;
+  display: flex;
 }
 .big-home-img {
   width: 100vw;
@@ -74,18 +75,23 @@ nav{
     align-items: center;
 
     p {
-      font-size: calc(2.5rem + 1vw);
+      font-size: 3rem;
       text-align: right;
     }
   }
 }
 .home-img {
   width: 30vw;
-  height: 30vw;
+  height: 14vw;
+  object-fit: cover;
+  border-radius: 1vw;
 
   margin: 5vw;
 }
 .home-info {
+  display: flex;
+  align-items: center;
+  height: 100%;
   width: 60vw;
   margin: 5vw;
   margin-left: 0;
@@ -94,11 +100,11 @@ nav{
   }
 }
 .home-info-heading {
-  font-size: 4.5vw;
+  font-size: 6vw;
   color: #eeeeee;
 }
 .home-info-paragraph {
-  font-size: 1.6vw;
+  font-size: calc(1rem + 1vw);
   padding: 1vw;
   color: #eeeeee;
 }
@@ -108,10 +114,10 @@ nav{
   display: flex;
   justify-content: space-around;
   button{
-    width: 20vw;
-    height: 7.5vw;
+    width: 25vw;
+    height: 10vw;
     border-radius: 1.5vw;
-    font-size: 2.5vw;
+    font-size: 4vw;
   }
 }
 .home-projects-btn, .home-about-btn, .home-github-btn {
@@ -141,6 +147,7 @@ nav{
     img{
       width: 36vw;
       border-radius: 0 0.9vw 0.9vw 0;
+      object-fit: cover;
     };
   };
 }

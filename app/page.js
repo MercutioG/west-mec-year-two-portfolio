@@ -26,7 +26,7 @@ const page = () => {
           <p>Welcome to my Portfolio</p>
         </div>
       </div>
-      <section class='flex' className='home-section'>
+      <section className='home-section'>
         <Image
           className='home-img'
           src='https://res.cloudinary.com/dbifof9on/image/upload/v1681780766/cld-sample-4.jpg'
@@ -37,7 +37,6 @@ const page = () => {
         <article className='colorful-border home-info'>
           <div class='text-center'>
             <p className='home-info-heading'>Mercutio Geant</p>
-            <p className='home-info-paragraph'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio exercitationem quibusdam omnis, consequuntur tempora fuga temporibus sed dolorem dicta accusamus possimus sunt, eaque laudantium delectus expedita enim! Possimus dicta tempora tenetur nesciunt odio officia, hic tempore saepe ut similique non consequuntur praesentium sequi fugit eaque. Cupiditate aliquam quae tempora molestias. Labore molestias sint officia unde veritatis.</p>
           </div>
         </article>
       </section>
@@ -46,6 +45,28 @@ const page = () => {
         <Link href="#about-section"><button className='home-about-btn'>About Me</button></Link>
         <button className='home-github-btn'>Github</button>
       </div>
+      <article className='colorful-border about-info'>
+        <div class='text-left'>
+          <div className='basis-3/4 home-info-content'>
+            <div>
+              <p className='home-info-heading'>About Me</p>
+              <p className='home-info-paragraph'>
+                I have always been facinated with coding<br/><br/>
+                Six week internship with WBLA from January to Febuary 2024 to work with a client to make a customizable portfolio<br/><br/>
+                Attributed regularly to community service throughout highschool
+              </p>
+            </div>
+            
+            <Image
+              className='basis-1/4'
+              src="https://res.cloudinary.com/dbifof9on/image/upload/v1681780766/cld-sample-4.jpg"
+              alt='Experience Image'
+              width={500}
+              height={500}
+            />
+          </div>
+        </div>
+      </article>
       <article className='colorful-border about-info' data-aos="fade-left" id='about-section'>
         <div class='text-left'>
           <div className='basis-3/4 home-info-content'>
@@ -72,33 +93,11 @@ const page = () => {
         <div class='text-left'>
           <div className='basis-3/4 home-info-content'>
             <div>
-              <p className='home-info-heading'>About Me</p>
-              <p className='home-info-paragraph'>
-                Worked with a client for his compeny QuikTek<br/><br/>
-                Six week internship with WBLA from January to Febuary 2024 to work with a client to make a customizable portfolio<br/><br/>
-                Attributed regularly to community service throughout highschool
-              </p>
-            </div>
-            
-            <Image
-              className='basis-1/4'
-              src="https://res.cloudinary.com/dbifof9on/image/upload/v1681780766/cld-sample-4.jpg"
-              alt='Experience Image'
-              width={500}
-              height={500}
-            />
-          </div>
-        </div>
-      </article>
-      <article className='colorful-border about-info'>
-        <div class='text-left'>
-          <div className='basis-3/4 home-info-content'>
-            <div>
               <p className='home-info-heading'>Skills</p>
               <p className='home-info-paragraph'>
-                Worked with a client for his compeny QuikTek<br/><br/>
-                Six week internship with WBLA from January to Febuary 2024 to work with a client to make a customizable portfolio<br/><br/>
-                Attributed regularly to community service throughout highschool
+                I work mostly front end, using HTML, CSS, JS, and React<br/><br/>
+                I also know how to set up backend using MongoDB and NextJS<br/><br/>
+                Software that I have used include is VSCode, and Unity Engine
               </p>
             </div>
             
