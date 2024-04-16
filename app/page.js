@@ -35,7 +35,7 @@ const page = () => {
           height={200}
         />
         <article className='colorful-border home-info'>
-          <div class='text-center'>
+          <div className='text-center'>
             <p className='home-info-heading'>Mercutio Geant</p>
           </div>
         </article>

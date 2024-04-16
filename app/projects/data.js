@@ -2,7 +2,7 @@ const data = [{
     "id": 1,
     "title": "Bernard's Burritos",
     "description": "This was my first ever coding project, it is a very simple website without much structure to it, however it was the start that kicked off my coding career to where I am at now.",
-    "image": "https://res.cloudinary.com/dbifof9on/image/upload",
+    "image": "https://res.cloudinary.com/dbifof9on/image/upload/v1713303943/bernardsBurritos_q9crgm.png",
     "url": "https://mcarri355.github.io/Website-Project/",
     "github": "https://github.com/mcarri355/Website-Project"
   },
@@ -10,7 +10,7 @@ const data = [{
     "id": 2,
     "title": "Number Converter",
     "description": "My first javascript project, a prompt is created for the user to input a number, and then it converts it to binary, and hexadecimal.",
-    "image": "https://res.cloudinary.com/dbifof9on/image/upload",
+    "image": "https://res.cloudinary.com/dbifof9on/image/upload/v1713304056/numberConverter_c5qob2.png",
     "url": "https://mercutiog.github.io/Number-Converter/",
     "github": "https://github.com/MercutioG/Number-Converter"
   },
@@ -18,7 +18,7 @@ const data = [{
     "id": 3,
     "title": "Pizza Order Form",
     "description": "A fake order form where it calculates the price all the toppings and pizza options and displays them at the end with an alert message.",
-    "image": "https://res.cloudinary.com/dbifof9on/image/upload",
+    "image": "https://res.cloudinary.com/dbifof9on/image/upload/v1713304589/pizzaOrderForm_ulw8bj.png",
     "url": "https://mercutiog.github.io/pizza-form/",
     "github": "https://github.com/MercutioG/pizza-form"
   },
@@ -26,7 +26,7 @@ const data = [{
     "id": 4,
     "title": "Picture Grid",
     "description": "A CSS practice website were the goal was to create a layout using grids.",
-    "image": "https://res.cloudinary.com/dbifof9on/image/upload",
+    "image": "https://res.cloudinary.com/dbifof9on/image/upload/v1713304679/cssGrid_tnctd7.png",
     "url": "https://mercutiog.github.io/picture-grid/",
     "github": "https://github.com/MercutioG/picture-grid"
   },
@@ -34,7 +34,7 @@ const data = [{
     "id": 5,
     "title": "Bernard's Breakfast",
     "description": "The sequel to Bernard's Burritos, this was supposed to be testing my skills in HTML and JavaScript, teaching us how to use multiple pages in a single site.",
-    "image": "https://res.cloudinary.com/dbifof9on/image/upload",
+    "image": "https://res.cloudinary.com/dbifof9on/image/upload/v1713304783/burger_vcysg1.png",
     "url": "https://ethantransier.github.io/End-of-unit-1-project/",
     "github": "https://github.com/EthanTransier/End-of-unit-1-project"
   },
@@ -42,7 +42,7 @@ const data = [{
     "id": 6,
     "title": "Basic Calculator",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quod, quaerat et justo vit autem quibusdam quidem quasi, quod, quaerat et justo verit. Lorem ipsum dolor sit amet, con sect et justo tempor nisi.",
-    "image": "https://res.cloudinary.com/dbifof9on/image/upload",
+    "image": "https://res.cloudinary.com/dbifof9on/image/upload/v1713304871/calculator_lu4nju.png",
     "url": "https://mercutiog.github.io/basic-calculator/",
     "github": "https://github.com/MercutioG/basic-calculator"
   },
@@ -50,7 +50,7 @@ const data = [{
     "id": 7,
     "title": "My First Portfolio",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quod, quaerat et justo vit autem quibusdam quidem quasi, quod, quaerat et justo verit. Lorem ipsum dolor sit amet, con sect et justo tempor nisi.",
-    "image": "https://res.cloudinary.com/dbifof9on/image/upload",
+    "image": "https://res.cloudinary.com/dbifof9on/image/upload/v1713304952/portfolio1_vhvczw.png",
     "url": "https://mercutiog.github.io/portfolio/index.html",
     "github": "https://github.com/MercutioG/portfolio"
   },
@@ -58,7 +58,7 @@ const data = [{
     "id": 8,
     "title": "Rigged Nixon Election",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quod, quaerat et justo vit autem quibusdam quidem quasi, quod, quaerat et justo verit. Lorem ipsum dolor sit amet, con sect et justo tempor nisi.",
-    "image": "https://res.cloudinary.com/dbifof9on/image/upload",
+    "image": "https://res.cloudinary.com/dbifof9on/image/upload/v1713305061/voteNixon_w8prgy.png",
     "url": "https://mercutiog.github.io/rigNixonElection/",
     "github": "https://github.com/MercutioG/rigNixonElection"
   },
@@ -66,7 +66,7 @@ const data = [{
     "id": 9,
     "title": "JQuery Social Media Page",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quod, quaerat et justo vit autem quibusdam quidem quasi, quod, quaerat et justo verit. Lorem ipsum dolor sit amet, con sect et justo tempor nisi.",
-    "image": "https://res.cloudinary.com/dbifof9on/image/upload",
+    "image": "https://res.cloudinary.com/dbifof9on/image/upload/v1713305117/SocialMedia_nabent.png",
     "url": "https://mercutiog.github.io/jQuery-Media-Page/",
     "github": "https://github.com/MercutioG/jQuery-Media-Page"
   },
@@ -109,5 +109,7 @@ const data = [{
     "image": "https://res.cloudinary.com/dbifof9on/image/upload",
     "url": "https://school-react-homepage.netlify.app",
     "github": "https://github.com/MercutioG/react-custom-homepage"
-  },
+  }
 ]
+
+export default data;
