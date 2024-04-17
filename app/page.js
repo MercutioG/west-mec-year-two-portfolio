@@ -45,7 +45,7 @@ const page = () => {
         <Link href="#about-section"><button className='home-about-btn'>About Me</button></Link>
         <button className='home-github-btn'>Github</button>
       </div>
-      <article className='colorful-border about-info'>
+      <article className='colorful-border about-info' id='about-section'>
         <div class='text-left'>
           <div className='basis-3/4 home-info-content'>
             <div>
@@ -53,7 +53,7 @@ const page = () => {
               <p className='home-info-paragraph'>
                 I have always been facinated with coding<br/><br/>
                 Six week internship with WBLA from January to Febuary 2024 to work with a client to make a customizable portfolio<br/><br/>
-                Attributed regularly to community service throughout highschool
+                I am a very creative designer with a lot of passion for the work that I do.
               </p>
             </div>
             
@@ -67,7 +67,7 @@ const page = () => {
           </div>
         </div>
       </article>
-      <article className='colorful-border about-info' data-aos="fade-left" id='about-section'>
+      <article className='colorful-border about-info' data-aos="fade-left">
         <div class='text-left'>
           <div className='basis-3/4 home-info-content'>
             <div>

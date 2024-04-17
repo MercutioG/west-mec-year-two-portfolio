@@ -25,7 +25,7 @@ const data = [{
   {
     "id": 4,
     "title": "Picture Grid",
-    "description": "A CSS practice website were the goal was to create a layout using grids.",
+    "description": "A CSS practice website were the goal was to create a layout using grids. It was a tough challenge at the time, however it taught us the value of flexbox.",
     "image": "https://res.cloudinary.com/dbifof9on/image/upload/v1713304679/cssGrid_tnctd7.png",
     "url": "https://mercutiog.github.io/picture-grid/",
     "github": "https://github.com/MercutioG/picture-grid"
@@ -41,7 +41,7 @@ const data = [{
   {
     "id": 6,
     "title": "Basic Calculator",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quod, quaerat et justo vit autem quibusdam quidem quasi, quod, quaerat et justo verit. Lorem ipsum dolor sit amet, con sect et justo tempor nisi.",
+    "description": "A very basic calculator that uses some Javascript to calculate any valid equation. However it does not meet the standards, as it uses the calc function.",
     "image": "https://res.cloudinary.com/dbifof9on/image/upload/v1713304871/calculator_lu4nju.png",
     "url": "https://mercutiog.github.io/basic-calculator/",
     "github": "https://github.com/MercutioG/basic-calculator"
@@ -49,7 +49,7 @@ const data = [{
   {
     "id": 7,
     "title": "My First Portfolio",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quod, quaerat et justo vit autem quibusdam quidem quasi, quod, quaerat et justo verit. Lorem ipsum dolor sit amet, con sect et justo tempor nisi.",
+    "description": "This was my very first portfolio ever made, mostly testing my skills of HTML and CSS to display what I thought was a great portfolio at the time.",
     "image": "https://res.cloudinary.com/dbifof9on/image/upload/v1713304952/portfolio1_vhvczw.png",
     "url": "https://mercutiog.github.io/portfolio/index.html",
     "github": "https://github.com/MercutioG/portfolio"
@@ -57,7 +57,7 @@ const data = [{
   {
     "id": 8,
     "title": "Rigged Nixon Election",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quod, quaerat et justo vit autem quibusdam quidem quasi, quod, quaerat et justo verit. Lorem ipsum dolor sit amet, con sect et justo tempor nisi.",
+    "description": "This project is the first outside JS library I was introduced to, JQuery. It was a fun assignment we were working on that made us use multiple functions to create a rigged election site.",
     "image": "https://res.cloudinary.com/dbifof9on/image/upload/v1713305061/voteNixon_w8prgy.png",
     "url": "https://mercutiog.github.io/rigNixonElection/",
     "github": "https://github.com/MercutioG/rigNixonElection"
@@ -65,7 +65,7 @@ const data = [{
   {
     "id": 9,
     "title": "JQuery Social Media Page",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quod, quaerat et justo vit autem quibusdam quidem quasi, quod, quaerat et justo verit. Lorem ipsum dolor sit amet, con sect et justo tempor nisi.",
+    "description": "Another JQuery project, this was a very CSS and JavaScript heavy project for what we were working on at the time. I loved the design on this one and the JQuery usage was clever.",
     "image": "https://res.cloudinary.com/dbifof9on/image/upload/v1713305117/SocialMedia_nabent.png",
     "url": "https://mercutiog.github.io/jQuery-Media-Page/",
     "github": "https://github.com/MercutioG/jQuery-Media-Page"
@@ -73,8 +73,8 @@ const data = [{
   {
     "id": 10,
     "title": "Summer Website",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quod, quaerat et justo vit autem quibusdam quidem quasi, quod, quaerat et justo verit. Lorem ipsum dolor sit amet, con sect et justo tempor nisi.",
-    "image": "https://res.cloudinary.com/dbifof9on/image/upload",
+    "description": "After the summer we designed a website that showed off all of the things we did over break. I do not like the design of it very much, but I had a whole year of learning ahead of myself.",
+    "image": "https://res.cloudinary.com/dbifof9on/image/upload/v1713387280/summerSite_vknpbm.png",
     "url": "https://mercutiog.github.io/Summer-Website/",
     "github": "https://github.com/MercutioG/Summer-Website"
   },
@@ -82,34 +82,26 @@ const data = [{
     "id": 11,
     "title": "Netlify Testing",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quod, quaerat et justo vit autem quibusdam quidem quasi, quod, quaerat et justo verit. Lorem ipsum dolor sit amet, con sect et justo tempor nisi.",
-    "image": "https://res.cloudinary.com/dbifof9on/image/upload",
+    "image": "https://res.cloudinary.com/dbifof9on/image/upload/v1713387455/birthdays_mhmwok.png",
     "url": "https://shiny-dolphin-49e590.netlify.app",
     "github": "https://github.com/MercutioG/birthday-reminder"
   },
   {
     "id": 12,
-    "title": "React Tours Project",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quod, quaerat et justo vit autem quibusdam quidem quasi, quod, quaerat et justo verit. Lorem ipsum dolor sit amet, con sect et justo tempor nisi.",
-    "image": "https://res.cloudinary.com/dbifof9on/image/upload",
-    "url": "https://frabjous-halva-61a224.netlify.app/",
-    "github": "https://github.com/MercutioG/React-Tours-Project"
-  },
-  {
-    "id": 13,
     "title": "Random Quote Generator",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quod, quaerat et justo vit autem quibusdam quidem quasi, quod, quaerat et justo verit. Lorem ipsum dolor sit amet, con sect et justo tempor nisi.",
-    "image": "https://res.cloudinary.com/dbifof9on/image/upload",
+    "image": "https://res.cloudinary.com/dbifof9on/image/upload/v1713388525/quotes_b6furs.png",
     "url": "https://endearing-horse-828f09.netlify.app",
     "github": "https://github.com/MercutioG/random-quote-generator"
   },
   {
-    "id": 14,
+    "id": 13,
     "title": "Custom Homepage",
     "description": "A custom React homepage for all of my most important links for my West-MEC. This was trying to show us how to use our Netlify skills in combination with a plugin.",
-    "image": "https://res.cloudinary.com/dbifof9on/image/upload",
+    "image": "https://res.cloudinary.com/dbifof9on/image/upload/v1713388594/reactHomepage_o5jafr.png",
     "url": "https://school-react-homepage.netlify.app",
     "github": "https://github.com/MercutioG/react-custom-homepage"
   }
 ]
 
-export default data;
+export default data.reverse();
