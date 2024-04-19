@@ -30,7 +30,7 @@ const page = () => {
           </div>
         ))}
 
-        {(data.length % 3 !== 0 && screenSize.width >= 1376 || data.length % 2 !== 0 && screenSize.width < 1376) ? (data.length % 3 !== 1 || screenSize.width <= 1376) ? 
+        {((data.length % 3 !== 0 && screenSize.width >= 1376 || data.length % 2 !== 0 && screenSize.width < 1376) && screenSize.width > 920) ? (data.length % 3 !== 1 || screenSize.width <= 1376) ? 
         <div key="-1" className='colorful-border card-container'>
         <div className='text-center project-cards'>
           <article>
