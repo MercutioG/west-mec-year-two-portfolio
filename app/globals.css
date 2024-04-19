@@ -95,10 +95,9 @@ nav{
   display: flex;
   align-items: center;
   height: 100%;
-  width: calc(100% - 8rem);
   margin: 4rem;
   div{
-    width: 100%;
+    width: calc(20rem + 10vw);
   }
 }
 .home-info-heading {
@@ -180,7 +179,7 @@ nav{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 20rem;
+  width: 25rem;
   h1 {
     font-size: 1.2rem;
   }
@@ -245,5 +244,26 @@ body::-webkit-scrollbar-thumb {
   body {
     scrollbar-color: var(--sb-thumb-color)
     var(--sb-track-color);
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .project-cards {
+    width: 80vw;
+    img{
+      width: 80vw;
+      height: 40vw;
+    }
+  }
+
+  .project-btn{
+    max-width: 40%;
+  }
+
+  .project-btn-container-container {
+    margin: 0;
+    padding: 0;
+    height: fit-content;
+    margin-bottom: 1rem;
   }
 }

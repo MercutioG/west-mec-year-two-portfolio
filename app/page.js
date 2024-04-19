@@ -2,6 +2,7 @@
 
 import React from 'react'
 import Navbar from './nav'
+import Footer from './footer'
 import Head from 'next/head';
 import AOS from 'aos';
 import { useEffect } from 'react';
@@ -133,6 +134,7 @@ const page = () => {
           </div>
         </div>
       </article>
+      <Footer/>
     </>
   )
 }
