@@ -84,7 +84,7 @@ nav{
 }
 .home-img {
   width: 60%;
-  height: 30vw;
+  height: calc(20vw + 10rem);
   object-fit: cover;
   border-radius: 1vw;
 
@@ -95,7 +95,7 @@ nav{
   display: flex;
   align-items: center;
   height: 100%;
-  margin: 4rem;
+  margin: 4vw;
   div{
     width: calc(20rem + 10vw);
   }

@@ -101,7 +101,23 @@ const data = [{
     "image": "https://res.cloudinary.com/dbifof9on/image/upload/v1713388594/reactHomepage_o5jafr.png",
     "url": "https://school-react-homepage.netlify.app",
     "github": "https://github.com/MercutioG/react-custom-homepage"
-  }
+  },
+  {
+    "id": 14,
+    "title": "Theme Switcher",
+    "description": "A small silly page that was used to teach us how to use the 'useRef' feature in ReactJS. It was a good indication that we were getting the hang of using React hooks.",
+    "image": "https://res.cloudinary.com/dbifof9on/image/upload/v1713820121/themeswitcher_bw0rg0.png",
+    "url": "https://main--fastidious-manatee-2e9905.netlify.app/",
+    "github": "https://github.com/MercutioG/theme-switcher-project"
+  },
+  {
+    "id": 15,
+    "title": "JWT Practice",
+    "description": "A small silly page that was used to teach us how to use the 'useRef' feature in ReactJS. It was a good indication that we were getting the hang of using React hooks.",
+    "image": "https://res.cloudinary.com/dbifof9on/image/upload/v1713823666/login_b56wrv.png",
+    "url": "https://main--nextjs-typescript-jwt-practice.netlify.app/",
+    "github": "https://github.com/MercutioG/jwt_authentication"
+  },
 ]
 
 export default data.reverse();
