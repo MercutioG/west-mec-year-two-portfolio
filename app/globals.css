@@ -134,6 +134,7 @@ nav{
 .home-info-content {
   display: flex;
   flex-direction: row;
+  height: 100%;
 }
 .about-info {
   width: 90vw;
@@ -147,7 +148,7 @@ nav{
       }
     };
     img{
-      width: 36vw;
+      min-width: 36vw;
       border-radius: 0 0.8vw 0.8vw 0;
       object-fit: cover;
     };

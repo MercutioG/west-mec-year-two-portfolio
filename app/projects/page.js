@@ -36,7 +36,7 @@ const page = () => {
           <article>
             <h1>Coming Soon</h1>
             <Image src="https://res.cloudinary.com/dbifof9on/image/upload/v1713558899/question_ewr1lj.png" width={500} height={500} alt="Coming Soon"/>
-            <p>This project is yet to be developed, I can't wait to continue my coding career!</p>
+            <p>This project is yet to be developed, I can't wait to continue my coding career! Stay tuned to continue viewing my progress.</p>
           </article>
           <article className='project-btn-container-container'>
             <Link href="/projects" className='project-btn-container'><button className='project-btn'>Soon</button></Link>
@@ -50,7 +50,7 @@ const page = () => {
           <article>
             <h1>Coming Soon</h1>
             <Image src="https://res.cloudinary.com/dbifof9on/image/upload/v1713558899/question_ewr1lj.png" width={500} height={500} alt="Coming Soon"/>
-            <p>This project is yet to be developed, I can't wait to continue my coding career!</p>
+            <p>This project is yet to be developed, I can't wait to continue my coding career! Stay tuned to continue viewing my progress.</p>
           </article>
           <article className='project-btn-container-container'>
             <Link href="/projects" className='project-btn-container'><button className='project-btn'>Soon</button></Link>
@@ -63,7 +63,7 @@ const page = () => {
           <article>
             <h1>Coming Soon</h1>
             <Image src="https://res.cloudinary.com/dbifof9on/image/upload/v1713558899/question_ewr1lj.png" width={500} height={500} alt="Coming Soon"/>
-            <p>This project is yet to be developed, I can't wait to continue my coding career!</p>
+            <p>This project is yet to be developed, I can't wait to continue my coding career! Stay tuned to continue viewing my progress.</p>
           </article>
           <article className='project-btn-container-container'>
             <Link href="/projects" className='project-btn-container'><button className='project-btn'>Soon</button></Link>

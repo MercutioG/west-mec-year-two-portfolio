@@ -82,7 +82,7 @@ const page = () => {
             
             <Image
               className='basis-1/4'
-              src="https://res.cloudinary.com/dbifof9on/image/upload/v1681780766/cld-sample-4.jpg"
+              src="https://res.cloudinary.com/dbifof9on/image/upload/v1713817022/02._NEC_eyznci.jpg"
               alt='Experience Image'
               width={500}
               height={500}
@@ -97,14 +97,14 @@ const page = () => {
               <p className='home-info-heading'>Skills</p>
               <p className='home-info-paragraph'>
                 I work mostly front end, using HTML, CSS, JS, and React<br/><br/>
-                I also know how to set up backend using MongoDB and NextJS<br/><br/>
-                Software that I have used include is VSCode, and Unity Engine
+                But I also know how to set up backend using MongoDB and NextJS<br/><br/>
+                Software that I have used in the past relating to my coding experience include VSCode, and Unity Engine
               </p>
             </div>
             
             <Image
               className='basis-1/4'
-              src="https://res.cloudinary.com/dbifof9on/image/upload/v1681780766/cld-sample-4.jpg"
+              src="https://res.cloudinary.com/dbifof9on/image/upload/v1713818985/css_qu6lv3.png"
               alt='Experience Image'
               width={500}
               height={500}
