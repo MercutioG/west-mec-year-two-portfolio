@@ -5,7 +5,7 @@ import data from './data'
 import Image from 'next/image'
 import Link from 'next/link'
 import useScreenSize from '../screenSize'
-import AOS from '/aos';
+import AOS from 'aos';
 import { useEffect } from 'react'
 
 const page = () => {
