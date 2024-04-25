@@ -5,8 +5,13 @@ import data from './data'
 import Image from 'next/image'
 import Link from 'next/link'
 import useScreenSize from '../screenSize'
+import AOS from 'aos';
+import { useEffect } from 'react'
 
 const page = () => {
+  useEffect(() => {
+    AOS.init();
+}, []);
   const screenSize = useScreenSize();
   return (
     <>
@@ -15,7 +20,7 @@ const page = () => {
       <div className="projects-container">
         {/* Each individual Card gets made here */}
       {data.map((item) => (
-          <div key={item.id} className='colorful-border card-container'>
+          <div key={item.id} className='colorful-border card-container' data-aos="fade-up">
             <div className='text-center project-cards'>
               <article>
                 <h1>{item.title}</h1>
@@ -31,7 +36,7 @@ const page = () => {
         ))}
 
         {((data.length % 3 !== 0 && screenSize.width >= 1376 || data.length % 2 !== 0 && screenSize.width < 1376) && screenSize.width > 920) ? (data.length % 3 !== 1 || screenSize.width <= 1376) ? 
-        <div key="-1" className='colorful-border card-container'>
+        <div key="-1" className='colorful-border card-container' data-aos="fade-up">
         <div className='text-center project-cards'>
           <article>
             <h1>Coming Soon</h1>
@@ -45,7 +50,7 @@ const page = () => {
         </div>
       </div>: 
       <>
-      <div key="-1" className='colorful-border card-container'>
+      <div key="-1" className='colorful-border card-container' data-aos="fade-up">
         <div className='text-center project-cards'>
           <article>
             <h1>Coming Soon</h1>
@@ -58,7 +63,7 @@ const page = () => {
           </article>
         </div>
         </div>
-        <div key="-2" className='colorful-border card-container'>
+        <div key="-2" className='colorful-border card-container' data-aos="fade-up">
         <div className='text-center project-cards'>
           <article>
             <h1>Coming Soon</h1>

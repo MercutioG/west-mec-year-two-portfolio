@@ -13,8 +13,7 @@ import Image from 'next/image'
 const page = () => {
   useEffect(() => {
     AOS.init();
-    console.log('init');
-  }, []);
+}, []);
 
   return (
     <>
@@ -41,12 +40,12 @@ const page = () => {
           </div>
         </article>
       </section>
-      <div className='home-btn-container'>
+      <div className='home-btn-container' data-aos="fade-up">
         <Link href="/projects"><button className='home-projects-btn'>Projects</button></Link>
         <Link href="#about-section"><button className='home-about-btn'>About Me</button></Link>
         <button className='home-github-btn'>Github</button>
       </div>
-      <article className='colorful-border about-info' id='about-section'>
+      <article className='colorful-border about-info' id='about-section' data-aos="fade-up">
         <div class='text-left'>
           <div className='basis-3/4 home-info-content'>
             <div>
@@ -68,7 +67,7 @@ const page = () => {
           </div>
         </div>
       </article>
-      <article className='colorful-border about-info' data-aos="fade-left">
+      <article className='colorful-border about-info' data-aos="fade-up">
         <div class='text-left'>
           <div className='basis-3/4 home-info-content'>
             <div>
@@ -90,7 +89,7 @@ const page = () => {
           </div>
         </div>
       </article>
-      <article className='colorful-border about-info'>
+      <article className='colorful-border about-info' data-aos="fade-up">
         <div class='text-left'>
           <div className='basis-3/4 home-info-content'>
             <div>
@@ -112,7 +111,7 @@ const page = () => {
           </div>
         </div>
       </article>
-      <article className='colorful-border about-info'>
+      <article className='colorful-border about-info' data-aos="fade-up">
         <div class='text-left'>
           <div className='basis-3/4 home-info-content'>
             <div>
