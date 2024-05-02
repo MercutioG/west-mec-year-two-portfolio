@@ -46,7 +46,7 @@ const page = () => {
         <button className='home-github-btn'>Github</button>
       </div>
       <article className='colorful-border about-info' id='about-section' data-aos="fade-up">
-        <div class='text-left'>
+        <div className='text-left'>
           <div className='basis-3/4 home-info-content'>
             <div>
               <p className='home-info-heading'>About Me</p>
@@ -68,7 +68,7 @@ const page = () => {
         </div>
       </article>
       <article className='colorful-border about-info' data-aos="fade-up">
-        <div class='text-left'>
+        <div className='text-left'>
           <div className='basis-3/4 home-info-content'>
             <div>
               <p className='home-info-heading'>Education</p>
@@ -90,7 +90,7 @@ const page = () => {
         </div>
       </article>
       <article className='colorful-border about-info' data-aos="fade-up">
-        <div class='text-left'>
+        <div className='text-left'>
           <div className='basis-3/4 home-info-content'>
             <div>
               <p className='home-info-heading'>Skills</p>
@@ -112,7 +112,7 @@ const page = () => {
         </div>
       </article>
       <article className='colorful-border about-info' data-aos="fade-up">
-        <div class='text-left'>
+        <div className='text-left'>
           <div className='basis-3/4 home-info-content'>
             <div>
               <p className='home-info-heading'>Experience</p>

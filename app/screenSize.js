@@ -2,29 +2,22 @@
 import { useState, useEffect } from 'react';
 
 const useScreenSize = () => {
+  const [size, setSize] = useState(window.innerWidth)
 
-  const [screenSize, setScreenSize] = useState({
-    width: window.innerWidth,
-    height: window.innerHeight,
-  });
+  const checkSize = () => {
+    setSize(window.innerWidth)
+  }
 
   useEffect(() => {
-    const handleResize = () => {
-      setScreenSize({
-        width: window.innerWidth,
-        height: window.innerHeight,
-      });
-    };
-
-    window.addEventListener('resize', handleResize);
-
-    // Clean up the event listener when the component unmounts
+    console.log('useEffect: ')
+    window.addEventListener('resize', checkSize)
     return () => {
-      window.removeEventListener('resize', handleResize);
-    };
-  }, []);
-
-  return screenSize;
-};
+      console.log('Cleanup')
+      window.removeEventListener('resize', checkSize)
+    }
+  },[])
+  console.log('render')
+  return size;
+}
 
 export default useScreenSize;

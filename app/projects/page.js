@@ -1,7 +1,7 @@
 "use client"
 import Navbar from '../nav'
 import Footer from '../footer'
-import data from './data'
+import data from '../data'
 import Image from 'next/image'
 import Link from 'next/link'
 import useScreenSize from '../screenSize'
@@ -35,7 +35,7 @@ const page = () => {
           </div>
         ))}
 
-        {((data.length % 3 !== 0 && screenSize.width >= 1376 || data.length % 2 !== 0 && screenSize.width < 1376) && screenSize.width > 920) ? (data.length % 3 !== 1 || screenSize.width <= 1376) ? 
+        {((data.length % 3 !== 0 && screenSize >= 1376 || data.length % 2 !== 0 && screenSize < 1376) && screenSize > 920) ? (data.length % 3 !== 1 || screenSize <= 1376) ? 
         <div key="-1" className='colorful-border card-container' data-aos="fade-up">
         <div className='text-center project-cards'>
           <article>
@@ -44,8 +44,8 @@ const page = () => {
             <p>This project is yet to be developed, I can't wait to continue my coding career! Stay tuned to continue viewing my progress.</p>
           </article>
           <article className='project-btn-container-container'>
-            <Link href="/projects" className='project-btn-container'><button className='project-btn'>Soon</button></Link>
-            <Link href="/projects" className='project-btn-container'><button className='project-btn'>Soon</button></Link>
+            <Link href="/" className='project-btn-container'><button className='project-btn'>Soon</button></Link>
+            <Link href="/" className='project-btn-container'><button className='project-btn'>Soon</button></Link>
           </article>
         </div>
       </div>: 
@@ -58,8 +58,8 @@ const page = () => {
             <p>This project is yet to be developed, I can't wait to continue my coding career! Stay tuned to continue viewing my progress.</p>
           </article>
           <article className='project-btn-container-container'>
-            <Link href="/projects" className='project-btn-container'><button className='project-btn'>Soon</button></Link>
-            <Link href="/projects" className='project-btn-container'><button className='project-btn'>Soon</button></Link>
+            <Link href="/" className='project-btn-container'><button className='project-btn'>Soon</button></Link>
+            <Link href="/" className='project-btn-container'><button className='project-btn'>Soon</button></Link>
           </article>
         </div>
         </div>
@@ -71,8 +71,8 @@ const page = () => {
             <p>This project is yet to be developed, I can't wait to continue my coding career! Stay tuned to continue viewing my progress.</p>
           </article>
           <article className='project-btn-container-container'>
-            <Link href="/projects" className='project-btn-container'><button className='project-btn'>Soon</button></Link>
-            <Link href="/projects" className='project-btn-container'><button className='project-btn'>Soon</button></Link>
+            <Link href="/" className='project-btn-container'><button className='project-btn'>Soon</button></Link>
+            <Link href="/" className='project-btn-container'><button className='project-btn'>Soon</button></Link>
           </article>
         </div></div>
         </>: console.log('Perfect')}
